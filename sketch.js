@@ -43,9 +43,10 @@ function draw() {
   translate(width / 2, height / 2);
   stroke(0);
 
+  // Dibuja el círculo con el algoritmo de punto medio
   midpointCircle(0, 0, radio);
 
-  // Dibujar líneas desde el centro
+  // Dibuja las líneas desde el centro
   for (let i = 0; i < divisiones; i++) {
     let angulo = 360 / divisiones * i;
     let x = cos(angulo) * radio;
