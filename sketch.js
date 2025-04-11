@@ -43,7 +43,7 @@ function draw() {
   translate(width / 2, height / 2);
   stroke(0);
 
-s  midpointCircle(0, 0, radio);
+  midpointCircle(0, 0, radio);
 
   // Dibujar líneas desde el centro
   for (let i = 0; i < divisiones; i++) {
